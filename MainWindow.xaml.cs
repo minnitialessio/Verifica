@@ -35,6 +35,7 @@ namespace Biblioteca
             biblioteca = new Biblioteca("malatestiana", "via emilia", DateTime.Now, DateTime.Now,libri);
             lstLibriBiblioteca.ItemsSource = null;
             lstLibriBiblioteca.ItemsSource = biblioteca.Libri;
+            txtBiblioteca.Text = biblioteca.ToString();
         }
 
         private void btnAggiungiLibro_Click(object sender, RoutedEventArgs e)
