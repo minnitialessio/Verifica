@@ -20,6 +20,7 @@ namespace Biblioteca
     /// </summary>
     public partial class MainWindow : Window
     {
+    //Commento di prova
         Biblioteca biblioteca;
         public MainWindow()
         {
