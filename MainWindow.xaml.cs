@@ -57,7 +57,7 @@ namespace Biblioteca
 
         private void btnCalcolaNumeroLibri_Click(object sender, RoutedEventArgs e)
         {
-            int numeroLibri = biblioteca.CalcolaNumeroLibri();
+            int numeroLibri = biblioteca.NumeroLibriPresenti();
             MessageBox.Show(numeroLibri.ToString());
         }
 
@@ -65,7 +65,7 @@ namespace Biblioteca
         {
             string titolo = txtTitolo.Text;
             Libro libro = biblioteca.RicercaLibroDaTitolo(titolo);
-            txtLibro = libro.ToString();
+            txtLibro.Text = libro.ToString();
         }
 
         private void btnRicercaLibriAutore_Click(object sender, RoutedEventArgs e)
