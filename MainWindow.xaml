@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Biblioteca"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1100">
     <Grid>
-        
+        <Label Content="LIBRI DISPONIBILI" HorizontalAlignment="Left" Height="53" Margin="10,10,0,0" VerticalAlignment="Top" Width="213" FontWeight="Bold"/>
+        <ListBox x:Name="lstLibriBiblioteca" HorizontalAlignment="Left" Height="347" Margin="5,49,0,0" VerticalAlignment="Top" Width="230"/>
+        <Button x:Name="btnAggiungiLibro" Content="AGGIUNGI LIBRO" HorizontalAlignment="Left" Height="53" Margin="318,49,0,0" VerticalAlignment="Top" Width="138" Click="btnAggiungiLibro_Click"/>
+        <Button x:Name="btnRicercaLibroDaTitolo" Content="RICERCA LIBRO DA TITOLO" HorizontalAlignment="Left" Height="66" Margin="607,125,0,0" VerticalAlignment="Top" Width="175" IsEnabled="False" Click="btnRicercaLibroDaTitolo_Click"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="43" Margin="265,136,0,0" TextWrapping="Wrap" Text="TITOLO" VerticalAlignment="Top" Width="313" TextChanged="txtTitolo_TextChanged"/>
+        <ListBox x:Name="lstLibri" HorizontalAlignment="Left" Height="355" Margin="818,28,0,0" VerticalAlignment="Top" Width="223"/>
+        <Button x:Name="btnRicercaLibriAutore" Content="RICERCA LIBRI AUTORE" HorizontalAlignment="Left" Height="64" Margin="607,223,0,0" VerticalAlignment="Top" Width="175" IsEnabled="False" Click="btnRicercaLibriAutore_Click"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="53" Margin="265,223,0,0" TextWrapping="Wrap" Text="AUTORE" VerticalAlignment="Top" Width="313" TextChanged="txtAutore_TextChanged"/>
+        <Button x:Name="btnCalcolaNumeroLibri" Content="CALCOLA NUMERO LIBRI" HorizontalAlignment="Left" Height="53" Margin="542,49,0,0" VerticalAlignment="Top" Width="149" Click="btnCalcolaNumeroLibri_Click"/>
+
     </Grid>
 </Window>
