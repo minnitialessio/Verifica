@@ -23,6 +23,7 @@
         <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Height="53" Margin="280,640,0,0" TextWrapping="Wrap" Text="ANNO PUBBLICAZIONE LIBRO DA AGGIUNGERE" VerticalAlignment="Top" Width="298"/>
         <TextBox x:Name="txtTitoloLibro" HorizontalAlignment="Left" Height="53" Margin="280,394,0,0" TextWrapping="Wrap" Text="TITOLO LIBRO DA AGGIUNGERE" VerticalAlignment="Top" Width="298"/>
         <Button x:Name="btnReadingTime" Content="READING TIME" HorizontalAlignment="Left" Height="53" Margin="301,49,0,0" VerticalAlignment="Top" Width="157" Click="btnReadingTime_Click"/>
+        <TextBox x:Name="txtBiblioteca" HorizontalAlignment="Left" Height="34" Margin="301,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" IsEnabled="False"/>
 
     </Grid>
 </Window>
