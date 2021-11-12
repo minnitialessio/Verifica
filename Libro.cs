@@ -105,7 +105,7 @@ namespace Biblioteca
         }
         public override string ToString()
         {
-            return Autore + " " + Titolo + " " + AnnoPubblicazione + " " + Editore + " " + NumeroPagine;
+            return Autore + " " + Titolo + " anno pubblicazione: " + AnnoPubblicazione + " editore: " + Editore + " numero pagine: " + NumeroPagine;
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Biblioteca
             InitializeComponent();
             Libro libro1 = new Libro("Martin","Game of Thrones",2016,"Mondadori",240);
             Libro libro2 = new Libro("J.K Rowling","Harry Potter",2000, "Mondadori",202);
-            Libro libro3 = new Libro("Autore3","Sherlock Holmes",1998, "Mondadori",300);
+            Libro libro3 = new Libro("Neil Gaiman","Sandman",1998, "Mondadori",300);
             List<Libro> libri = new List<Libro>();
             libri.Add(libro1);
             libri.Add(libro2);
